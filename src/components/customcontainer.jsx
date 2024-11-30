@@ -1,7 +1,8 @@
 
 import { FaStar } from "react-icons/fa";
-
-
+import bn7 from '../images/banner/7.jpg';
+import bn8 from '../images/banner/8.jpg';
+import pr3_8 from '../images/product/product-3/8.jpg';
 
 export default function CustomContainer() {
 
@@ -27,29 +28,29 @@ export default function CustomContainer() {
                                         {" "}
                                         <img
                                             className="bg-img"
-                                            src="../assets/images/banner/banner-7.jpg"
+                                            src={bn7}
                                             alt=""
                                             style={{ display: "none" }}
                                         />
                                         <div className="contain-banner">
                                             <div>
-                                                <h4>Up to 60% OFF</h4>
-                                                <h3>New Brand Men’s Bag</h3>
+                                                <h4>Mùa lễ hội</h4>
+                                                <h3>Thương hiệu thời trang nữ</h3>
                                                 <div className="link-hover-anim underline">
                                                     <a
                                                         className="btn btn_underline link-strong link-strong-unhovered"
-                                                        href="collection-left-sidebar.html"
+                                                        href="#"
                                                     >
-                                                        Shop Collection
+                                                        Bộ sưu tập
                                                         <svg>
                                                             <use href="../assets/svg/icon-sprite.svg#arrow" />
                                                         </svg>
                                                     </a>
                                                     <a
                                                         className="btn btn_underline link-strong link-strong-hovered"
-                                                        href="collection-left-sidebar.html"
+                                                        href="#"
                                                     >
-                                                        Shop Collection
+                                                        Bộ sưu tập
                                                         <svg>
                                                             <use href="../assets/svg/icon-sprite.svg#arrow" />
                                                         </svg>
@@ -73,20 +74,20 @@ export default function CustomContainer() {
                                     >
                                         <img
                                             className="bg-img"
-                                            src="../assets/images/banner/banner-8.jpg"
+                                            src={bn8}
                                             alt=""
                                             style={{ display: "none" }}
                                         />
                                         <div className="contain-banner">
                                             <div>
-                                                <h4>Up to 60% OFF</h4>
-                                                <h3>Women’s Stylish Top</h3>
+                                                <h4>Giảm giá tới 60%</h4>
+                                                <h3>top thương hiệu thời trang nữ</h3>
                                                 <div className="link-hover-anim underline">
                                                     <a
                                                         className="btn btn_underline link-strong link-strong-unhovered"
                                                         href="collection-left-sidebar.html"
                                                     >
-                                                        Shop Collection
+                                                        Bộ sưu tập
                                                         <svg>
                                                             <use href="../assets/svg/icon-sprite.svg#arrow" />
                                                         </svg>
@@ -95,7 +96,7 @@ export default function CustomContainer() {
                                                         className="btn btn_underline link-strong link-strong-hovered"
                                                         href="collection-left-sidebar.html"
                                                     >
-                                                        Shop Collection
+                                                        bộ sưu tập
                                                         <svg>
                                                             <use href="../assets/svg/icon-sprite.svg#arrow" />
                                                         </svg>
@@ -109,7 +110,7 @@ export default function CustomContainer() {
                         </div>
                         <div className="col-xxl-3 col-4 d-none d-lg-block">
                             <div className="special-offer-slider">
-                                <h4>Special Offer</h4>
+                                <h4>Giảm giá đặc biệt</h4>
                                 <div className="swiper special-offer-slide swiper-initialized swiper-horizontal swiper-backface-hidden">
                                     <div
                                         className="swiper-wrapper trending-products"
@@ -174,14 +175,14 @@ export default function CustomContainer() {
                                                         {" "}
                                                         <img
                                                             className="bg-img"
-                                                            src="../assets/images/product/product-3/8.jpg"
+                                                            src={pr3_8}
                                                             alt="product"
                                                             style={{ display: "none" }}
                                                         />
                                                     </a>
                                                     <a
                                                         className="pro-sec bg-size"
-                                                        href="product.html"
+                                                        href="#"
                                                         style={{
                                                             backgroundImage:
                                                                 "url(https://themes.pixelstrap.net/katie/assets/images/product/product-3/12.jpg)",
@@ -388,7 +389,7 @@ export default function CustomContainer() {
                                                     <li>4.3</li>
                                                 </ul>
                                                 <a href="product.html">
-                                                    <h6>Wide Linen-Blend Trousers</h6>
+                                                    <h6>Wide bảo-Blend Trousers</h6>
                                                 </a>
                                                 <p>
                                                     $100.00
@@ -433,7 +434,7 @@ export default function CustomContainer() {
                                                         </i>
                                                     </a>
                                                 </div>
-                                                <div className="product-image ratio_apos">
+                     {/* file chung poster */}  <div className="product-image ratio_apos">
                                                     <a
                                                         className="pro-first bg-size"
                                                         href="product.html"
@@ -603,7 +604,7 @@ export default function CustomContainer() {
                                                     </a>
                                                 </div>
                                             </div>
-                                            <div className="product-detail">
+                                            <div className="product-detail">{/* poster bên phải */}
                                                 <ul className="rating">
                                                     <li>
                                                         <FaStar />
@@ -623,11 +624,11 @@ export default function CustomContainer() {
                                                     <li>4.3</li>
                                                 </ul>
                                                 <a href="product.html">
-                                                    <h6>Greciilooks Women's Stylish Top</h6>
+                                                    <h6>Bộ sưu tập của Greciilooks</h6>
                                                 </a>
                                                 <p>
-                                                    $100.00
-                                                    <del>$140.00</del>
+                                                    160.000
+                                                    <del>200.000</del>
                                                     <span>-20%</span>
                                                 </p>
                                             </div>
@@ -655,7 +656,7 @@ export default function CustomContainer() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-4 d-none d-xxl-block">
+                        {/* <div className="col-4 d-none d-xxl-block">
                             <div className="offer-banner-3 ratio1_3">
                                 {" "}
                                 <a
@@ -684,7 +685,7 @@ export default function CustomContainer() {
                                     </div>
                                 </a>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </section>

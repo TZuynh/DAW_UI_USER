@@ -14,47 +14,47 @@ export default function Banner() {
                             <ul>
                                 <li >
                                     {" "}
-                                    <a href="collection-left-sidebar.html" className="fw-bolder">Women’s Clothing</a>
+                                    <a href="#" className="fw-bolder">Quần Áo Nữ</a>
                                 </li>
                                 <li>
                                     {" "}
-                                    <a href="collection-left-sidebar.html" className="fw-bolder">Men’s Clothing</a>
+                                    <a href="#" className="fw-bolder">Quần Áo Nam</a>
                                 </li>
                                 <li>
                                     {" "}
-                                    <a href="collection-left-sidebar.html" className="fw-bolder">Kids Clothing</a>
+                                    <a href="#" className="fw-bolder">Áo Sơ Mi Nữ</a>
                                 </li>
                                 <li>
                                     {" "}
-                                    <a href="collection-left-sidebar.html" className="fw-bolder">Watch</a>
+                                    <a href="#" className="fw-bolder">Áo Sơ Mi Nam</a>
                                 </li>
                                 <li>
                                     {" "}
-                                    <a href="collection-left-sidebar.html" className="fw-bolder">Sports Accessories</a>
+                                    <a href="#" className="fw-bolder">Phụ Kiện Nữ</a>
                                 </li>
                                 <li>
                                     {" "}
-                                    <a href="collection-left-sidebar.html" className="fw-bolder">Sunglass</a>
+                                    <a href="#" className="fw-bolder">Phụ Kiện Nam</a>
                                 </li>
                                 <li>
                                     {" "}
-                                    <a href="collection-left-sidebar.html" className="fw-bolder">Bags</a>
+                                    <a href="#" className="fw-bolder">Áo Khoác Nữ</a>
                                 </li>
                                 <li>
                                     {" "}
-                                    <a href="collection-left-sidebar.html" className="fw-bolder">Sneakers</a>
+                                    <a href="#" className="fw-bolder">Áo Khoác Nam</a>
                                 </li>
                                 <li>
                                     {" "}
-                                    <a href="collection-left-sidebar.html" className="fw-bolder">Jewellery</a>
+                                    <a href="#" className="fw-bolder">Túi Xách Nữ</a>
                                 </li>
                                 <li>
                                     {" "}
-                                    <a href="collection-left-sidebar.html" className="fw-bolder">Hair Accessories</a>
+                                    <a href="#" className="fw-bolder">Thắt Lưng Nam</a>
                                 </li>
                                 <li>
                                     {" "}
-                                    <a href="collection-left-sidebar.html" className="fw-bolder">Other</a>
+                                    <a href="#" className="fw-bolder">Khác</a>
                                 </li>
                             </ul>
                         </div>
