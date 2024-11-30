@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { login } from "../services/authApi";
 import styled from "styled-components";
+import { NavLink } from 'react-router-dom';
 
 const PopupOverlay = styled.div`
     position: fixed;
@@ -139,6 +140,8 @@ const PopupLogin = (props) => {
                 <ButtonClose onClick={props.onClose} style={{ marginTop: "10px" }}>
                     Đóng
                 </ButtonClose>
+                <br />
+                <NavLink to="/sign-up">Đăng ký</NavLink> {/* Correct usage */}
             </PopupContent>
         </PopupOverlay >
     );
