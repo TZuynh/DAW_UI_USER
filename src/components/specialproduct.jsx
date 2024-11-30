@@ -10,10 +10,10 @@ export default function SpecialProduct() {
                         <div className="col-md-4 col-12">
                             <div className="title-1">
                                 <p>
-                                    Trendy collection
+                                    Bộ Sưu Tập Trending
                                     <span />
                                 </p>
-                                <h3>Special Products</h3>
+                                <h3>Sản Phẩm Đặc Biệt</h3>
                             </div>
                         </div>
                         <div className="col-md-8 col-12">
@@ -73,7 +73,7 @@ export default function SpecialProduct() {
                                             <div className="product-box-3">
                                                 <div className="img-wrapper">
                                                     <div className="label-block">
-                                                        <span className="lable-1">NEW</span>
+                                                        <span className="lable-1">MỚI</span>
                                                         <a
                                                             className="label-2 wishlist-icon"
                                                             href="javascript:void(0)"
@@ -276,7 +276,7 @@ export default function SpecialProduct() {
                                                                 <div className="timer">
                                                                     <div className="days">9</div>
                                                                 </div>
-                                                                <span className="title">Days</span>
+                                                                <span className="title">Ngày</span>
                                                             </li>
                                                             <li className="dot">
                                                                 {" "}
@@ -286,7 +286,7 @@ export default function SpecialProduct() {
                                                                 <div className="timer">
                                                                     <div className="hours">22</div>
                                                                 </div>
-                                                                <span className="title">Hours</span>
+                                                                <span className="title">Giờ</span>
                                                             </li>
                                                             <li className="dot">
                                                                 {" "}
@@ -296,7 +296,7 @@ export default function SpecialProduct() {
                                                                 <div className="timer">
                                                                     <div className="minutes">43</div>
                                                                 </div>
-                                                                <span className="title">Min</span>
+                                                                <span className="title">Phút</span>
                                                             </li>
                                                             <li className="dot">
                                                                 {" "}
@@ -306,7 +306,7 @@ export default function SpecialProduct() {
                                                                 <div className="timer">
                                                                     <div className="seconds">51</div>
                                                                 </div>
-                                                                <span className="title">Sec</span>
+                                                                <span className="title">Giây</span>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -328,15 +328,15 @@ export default function SpecialProduct() {
                                                         <li>
                                                             <i className="fa-regular fa-star" />
                                                         </li>
-                                                        <li>4.3</li>
+                                                        <li>4.2</li>
                                                     </ul>
                                                     <a href="product.html">
-                                                        <h6>Greciilooks Women's Stylish Top</h6>
+                                                        <h6> Bộ sưu tập thời trang của Greciilooks</h6>
                                                     </a>
                                                     <p>
-                                                        $100.00
-                                                        <del>$140.00</del>
-                                                        <span>-20%</span>
+                                                        599.000
+                                                        <del>799.000</del>
+                                                        <span>-25%</span>
                                                     </p>
                                                 </div>
                                             </div>
@@ -345,7 +345,7 @@ export default function SpecialProduct() {
                                             <div className="product-box-3">
                                                 <div className="img-wrapper">
                                                     <div className="label-block">
-                                                        <span className="lable-1">NEW</span>
+                                                        <span className="lable-1">MỚI</span>
                                                         <a
                                                             className="label-2 wishlist-icon"
                                                             href="javascript:void(0)"
@@ -563,11 +563,11 @@ export default function SpecialProduct() {
                                                         <li>4.3</li>
                                                     </ul>
                                                     <a href="product.html">
-                                                        <h6>Wide Linen-Blend Trousers</h6>
+                                                        <h6>Thời trang cặp đôi</h6>
                                                     </a>
                                                     <p>
-                                                        $100.00
-                                                        <del>$18.00 </del>
+                                                        350.000
+                                                        <del>450.000 </del>
                                                     </p>
                                                 </div>
                                             </div>
@@ -576,7 +576,7 @@ export default function SpecialProduct() {
                                             <div className="product-box-3">
                                                 <div className="img-wrapper">
                                                     <div className="label-block">
-                                                        <span className="lable-1">NEW</span>
+                                                        <span className="lable-1">MỚI</span>
                                                         <a
                                                             className="label-2 wishlist-icon"
                                                             href="javascript:void(0)"
@@ -794,12 +794,12 @@ export default function SpecialProduct() {
                                                         <li>4.3</li>
                                                     </ul>
                                                     <a href="product.html">
-                                                        <h6>Long Sleeve Rounded T-Shirt</h6>
+                                                        <h6>Quần áo nữ</h6>
                                                     </a>
                                                     <p>
-                                                        $12.30
-                                                        <del>$140.00</del>
-                                                        <span>-20%</span>
+                                                        380.000
+                                                        <del>500.000</del>
+                                                        <span>-22%</span>
                                                     </p>
                                                 </div>
                                             </div>
@@ -808,7 +808,7 @@ export default function SpecialProduct() {
                                             <div className="product-box-3">
                                                 <div className="img-wrapper">
                                                     <div className="label-block">
-                                                        <span className="lable-1">NEW</span>
+                                                        <span className="lable-1">MỚI</span>
                                                         <a
                                                             className="label-2 wishlist-icon"
                                                             href="javascript:void(0)"
@@ -857,7 +857,7 @@ export default function SpecialProduct() {
                                                                 style={{ display: "none" }}
                                                             />
                                                         </a>
-                                                        <a
+                                                        <a  
                                                             className="pro-sec bg-size"
                                                             href="product.html"
                                                             style={{
@@ -1005,7 +1005,7 @@ export default function SpecialProduct() {
                                                             </i>
                                                         </a>
                                                     </div>
-                                                    <div className="countdown">
+                                                    {/* <div className="countdown">
                                                         <ul className="clockdiv3">
                                                             <li>
                                                                 <div className="timer">
@@ -1044,7 +1044,7 @@ export default function SpecialProduct() {
                                                                 <span className="title">Sec</span>
                                                             </li>
                                                         </ul>
-                                                    </div>
+                                                    </div> */}
                                                 </div>
                                                 <div className="product-detail">
                                                     <ul className="rating">
@@ -1066,18 +1066,18 @@ export default function SpecialProduct() {
                                                         <li>4.3</li>
                                                     </ul>
                                                     <a href="product.html">
-                                                        <h6>Blue lined White T-Shirt</h6>
+                                                        <h6>Bộ sưu tập xanh dương</h6>
                                                     </a>
                                                     <p>
-                                                        $190.00
-                                                        <del>$210.00</del>
+                                                        499.000
+                                                        <del>699.000</del>
                                                     </p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div
+                                {/* <div
                                     className="tab-pane fade"
                                     id="featured-product"
                                     role="tabpanel"
@@ -2091,8 +2091,8 @@ export default function SpecialProduct() {
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div
+                                </div> */}
+                                {/* <div
                                     className="tab-pane fade"
                                     id="best-seller"
                                     role="tabpanel"
@@ -3106,7 +3106,7 @@ export default function SpecialProduct() {
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

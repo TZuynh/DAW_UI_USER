@@ -254,6 +254,13 @@ function Header(props) {
                                     </li>
                                     <li>
                                         {" "}
+                                        <a className="nav-link" href="/blog">
+                                            Blog{" "}
+                                        </a>
+
+                                    </li>
+                                    <li>
+                                        {" "}
                                         <a className="nav-link" href="/view-about-us">
                                             Về Chúng Tôi{" "}
                                         </a>

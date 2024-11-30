@@ -8,6 +8,7 @@ import ViewProduct from './pages/viewallproduct';
 import ViewContact from './pages/viewcontact';
 import ViewAboutUs from './pages/viewAboutUs';
 import ViewCart from './pages/viewCart';
+import Blog from './pages/blog';
 
 function App() {
   const [isLoginOpen, setLoginOpen] = useState(false);
@@ -25,6 +26,7 @@ function App() {
         <Route path="/view-contact" element={<ViewContact />} />
         <Route path="/view-about-us" element={<ViewAboutUs />} />
         <Route path="/view-cart" element={<ViewCart />} />
+        <Route path="/blog" element={<Blog />} />
       </Routes>
 
       <button onClick={handleOpenLogin} style={{ position: 'fixed', top: 10, right: 10 }}>
